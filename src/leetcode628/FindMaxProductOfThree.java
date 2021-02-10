@@ -24,6 +24,9 @@ public class FindMaxProductOfThree {
 	                min2 = n;
 	            }
 	        }
+	        
+	        // max * max * max
+	        // max * min * min
 	        return Math.max(max1*max2*max3, max1*min1*min2);
 	    }
 }
